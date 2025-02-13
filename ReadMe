@@ -1,0 +1,10 @@
+Generador de Códigos QR para Productos
+Este proyecto fue desarrollado con la idea de crear un programa capaz de vincularse mediante la API de WooCommerce (en este caso, estoy utilizando una base de datos de Supabase) para generar códigos QR en formato PDF.
+
+Estos códigos pueden utilizarse en una tienda física, permitiendo que cada producto tenga su propio QR. De esta manera, cuando un cliente entre al local y escanee el código, será redirigido a una sección de la página web de la empresa donde podrá ver todos los detalles del producto, promociones vigentes, etc., facilitando así el proceso de venta.
+
+Archivos principales
+Generador_QR: Programa ejecutable desde la consola. Fue la primera prueba que realicé.
+Interfaz+Generador: Versión mejorada del programa con una interfaz gráfica creada con Tkinter. Incluye un botón para generar los códigos QR y almacenarlos en una carpeta específica de la computadora.
+Implementación práctica
+Una posible implementación sería que el cliente tenga una tienda online con una página de producto establecida. Mediante la asociación de una clave (key), se podría generar automáticamente un código QR vinculado al ID del producto.
