@@ -8,8 +8,8 @@ from io import BytesIO
 from supabase import create_client, Client
 
 
-url = "https://ryufhfohuqnvqfvgiliz.supabase.co"  
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ5dWZoZm9odXFudnFmdmdpbGl6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczODc0ODYxMCwiZXhwIjoyMDU0MzI0NjEwfQ.k6ofELpB51HX4a09JMyhhcwDc-5v9lf-XXfwyESpqp0"  # Cambia esto por tu clave anónima o de servicio
+url = "#"  # Aqui iria la conexion correspondiente
+key = "#"
 
 supabase: Client = create_client(url, key)
 
